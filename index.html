@@ -37,7 +37,7 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Meet the team</a></li>
 							<li><a href="generic.html">Tempus etiam</a></li>
 							<li><a href="generic.html">Consequat dolor</a></li>
 							<li><a href="elements.html">Elements</a></li>
@@ -48,13 +48,33 @@
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>PARENTS ULTIMATE GOTO GUIDE FOR BOREDOM!<br />
-								THE PARENTS RESOURCE <a href=""></a>.</h1>
+								<h1><center>PARENTS ULTIMATE GOTO GUIDE FOR BOREDOM!<br />
+								THE PARENTS RESOURCE <a href="Index.html"></a>.</center></h1>
 							</header>
 
 								<form>
-  									<input type="text" name="search" placeholder="Search fun activities here..">
+  									<input type="text" name="search" style="text-align:center" placeholder="Search fun activities here..">
 								</form>
+
+								<!-- This row will handle all of the retrieved articles -->
+								<div class="row">
+									<div class="col-sm-12">
+										<br>
+
+										<!-- This panel will initially be made up of a panel and wells for each of the articles retrieved -->
+										<div class="panel panel-primary">
+
+											<!-- Panel Heading for the retrieved articles box -->
+											<div class="panel-heading">
+												<h3 class="panel-title"><strong><i class="fa fa-table"></i>   Fun Activities </strong></h3>
+											</div>
+
+											<!-- This main panel will hold each of the resulting articles -->
+											<div class="panel-body" id="well-section">
+											</div>
+										</div>
+									</div>
+								</div>
 
 							<section class="tiles">
 								<article class="style1">
